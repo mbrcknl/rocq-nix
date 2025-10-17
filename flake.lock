@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1760524057,
+        "narHash": "sha256-EVAqOteLBFmd7pKkb0+FIUyzTF61VKi7YmvP1tw4nEw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "544961dfcce86422ba200ed9a0b00dd4b1486ec5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "rocq-nix-config": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1760704286,
+        "narHash": "sha256-SuXv4WJLstcpeo2rpzT0InvfoRaYhCzd1+3pVIDm3xE=",
+        "owner": "mbrcknl",
+        "repo": "rocq-nix-config",
+        "rev": "5eddd4f1bfb8f2106a9d9aa1a9c501cdcca07382",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mbrcknl",
+        "repo": "rocq-nix-config",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "rocq-nix-config": "rocq-nix-config"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
